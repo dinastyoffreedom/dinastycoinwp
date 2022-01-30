@@ -1,0 +1,14 @@
+[Unit]
+Description=Dinastycoin Full Node
+After=network.target
+
+[Service]
+User=dinastycoinservices
+Group=dinastycoinservices
+WorkingDirectory=/opt/dinastycoin-data-dir
+Type=simple
+LimitNOFILE=65535
+ExecStart=/usr/bin/dinastycoind --log-file /var/log/dinastycoin.log --data-dir /opt/dinastycoin-data-dir --non-interactive
+Restart=always
+[Install]
+WantedBy=multi-user.target

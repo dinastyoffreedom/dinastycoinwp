@@ -1,0 +1,14 @@
+[Unit]
+Description=dinastycoin Wallet RPC
+After=network.target dinastycoind.service
+
+[Service]
+User=dinastycoinservices
+Group=dinastycoinservices
+WorkingDirectory=/opt/dinastycoin-wallets
+Type=simple
+ExecStart=/opt/dinastycoin-bin/dinasty-wallet-rpc --wallet-file /opt/dinastycoin-wallets/woocommerce --rpc-bind-port 37176 --password-file /opt/dinastycoin-wallets/woocommerce.password --disable-rpc-login --log-file /var/log/dinastycoin-wallet.log
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
