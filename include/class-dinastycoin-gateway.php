@@ -101,7 +101,7 @@ class Dinastycoin_Gateway extends WC_Payment_Gateway
             require_once('class-dinastycoin-wallet-rpc.php');
             self::$dinastycoin_wallet_rpc = new Dinastycoin_Wallet_Rpc(self::$host, self::$port);
         } else {
-            require_once('class-mdinastycoin-explorer-tools.php');
+            require_once('class-dinastycoin-explorer-tools.php');
             self::$dinastycoin_explorer_tools = new Dinastycoin_Explorer_Tools(self::$testnet);
         }
 
