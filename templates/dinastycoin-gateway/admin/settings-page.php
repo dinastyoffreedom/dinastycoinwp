@@ -18,7 +18,7 @@
     <?php echo $settings_html ?>
 </table>
 
-<h4><a href="https://github.com/dinastycoin-integrations/dinastycoinwp">Learn more about using the dinastycoin payment gateway</a></h4>
+<h4><a href="https://github.com/dinastyoffreedom/dinastycoinwp">Learn more about using the dinastycoin payment gateway</a></h4>
 
 <script>
 function dinastycoinUpdateFields() {

@@ -161,7 +161,7 @@ function dinastycoin_init() {
         if(Dinastycoin_Gateway::use_qr_code())
             wp_enqueue_script('dinastycoin-qr-code', DINASTYCOIN_GATEWAY_PLUGIN_URL.'assets/js/qrcode.min.js');
 
-        wp_enqueue_script('dinastycoin-clipboard-js', DINASTCOIN_GATEWAY_PLUGIN_URL.'assets/js/clipboard.min.js');
+        wp_enqueue_script('dinastycoin-clipboard-js', DINASTYCOIN_GATEWAY_PLUGIN_URL.'assets/js/clipboard.min.js');
         wp_enqueue_script('dinastycoin-gateway', DINASTYCOIN_GATEWAY_PLUGIN_URL.'assets/js/dinastycoin-gateway-order-page.js');
         wp_enqueue_style('dinastycoin-gateway', DINASTYCOIN_GATEWAY_PLUGIN_URL.'assets/css/dinastycoin-gateway-order-page.css');
     }
