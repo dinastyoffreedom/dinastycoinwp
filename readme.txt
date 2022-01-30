@@ -1,18 +1,18 @@
-=== Monero WooCommerce Extension ===
-Contributors: serhack, mosu-forge and Monero Integrations contributors
+=== Dinastycoin WooCommerce Extension ===
+Contributors: serhack, mosu-forge and Monero Integrations contributors, dinasty of freedom trust
 Donate link: http://monerointegrations.com/donate.html
-Tags: dinastycoin woocommerce, integration, payment, merchant, cryptocurrency, accept inastycoin, inastycoin woocommerce
+Tags: dinastycoin woocommerce, integration, payment, merchant, cryptocurrency, accept dinastycoin, dinastycoin woocommerce
 Requires at least: 4.0
 Tested up to: 5.7.2
 Stable tag: trunk
 License: MIT license
 License URI: https://github.com/dinastyoffreedom/dinastycoinwp/blob/master/LICENSE
  
-Monero WooCommerce Extension is a Wordpress plugin that allows to accept monero at WooCommerce-powered online stores.
+Dinastycoin WooCommerce Extension is a Wordpress plugin that allows to accept dinastycoin at WooCommerce-powered online stores.
 
 = Benefits =
 
-* Payment validation done through either `monero-wallet-rpc` or the [xmrchain.net blockchain explorer](https://xmrchain.net/).
+* Payment validation done through either `dinasty-wallet-rpc` or the [xmrchain.net blockchain explorer](https://xmrchain.net/).
 * Validates payments with `cron`, so does not require users to stay on the order confirmation page for their order to validate.
 * Order status updates are done through AJAX instead of Javascript page reloads.
 * Customers can pay with multiple transactions and are notified as soon as transactions hit the mempool.
@@ -20,7 +20,7 @@ Monero WooCommerce Extension is a Wordpress plugin that allows to accept monero 
 * Live price updates every minute; total amount due is locked in after the order is placed for a configurable amount of time (default 60 minutes) so the price does not change after order has been made.
 * Hooks into emails, order confirmation page, customer order history page, and admin order details page.
 * View all payments received to your wallet with links to the blockchain explorer and associated orders.
-* Optionally display all prices on your store in terms of Monero.
+* Optionally display all prices on your store in terms of Dinastycoin.
 * Shortcodes! Display exchange rates in numerous currencies.
 
 = Installation =
@@ -32,7 +32,7 @@ In the "Add Plugins" section of the WordPress admin UI, search for "dinastycoin"
 == Manual method == 
 
 * Download the plugin from the releases page (https://github.com/dinastyoffreedom/dinastycoinwp) or clone with `git clone https://github.com/dinastyoffreedom/dinastycoinwp`
-* Unzip or place the `monero-woocommerce-gateway` folder in the `wp-content/plugins` directory.
+* Unzip or place the `dinasty-woocommerce-gateway` folder in the `wp-content/plugins` directory.
 * Activate "Dinastycoin Woocommerce Gateway" in your WordPress admin dashboard.
 * It is highly recommended that you use native cronjobs instead of WordPress's "Poor Man's Cron" by adding `define('DISABLE_WP_CRON', true);` into your `wp-config.php` file and adding `* * * * * wget -q -O - https://yourstore.com/wp-cron.php?doing_wp_cron >/dev/null 2>&1` to your crontab.
 
@@ -72,7 +72,7 @@ Note on security: using this option, while the most secure, requires you to run 
 == Changelog ==
 
 = 0.1 =
-* First Dinastycoin version based on 3.0.5 Monero plug in Yay!
+* First Dinastycoin version based on 3.0.5 Dinastycoin plug in Yay!
 
 
 == Upgrade Notice ==
@@ -82,7 +82,7 @@ soon
 == Frequently Asked Questions ==
 
 * What is Dinastycoin?
-Monero is completely private, cryptographically secure, digital cash used across the globe. See https://dinastycoin.com for more information
+Dinastycoin is completely private, cryptographically secure, digital cash used across the globe. See https://dinastycoin.com for more information
 
 * What is a Dinastycoin wallet?
 A Dinastycoin wallet is a piece of software that allows you to store your funds and interact with the Dinastycoin network. You can get a Dinastycoin wallet from https://www.dinastycoin.com/download-wallet/

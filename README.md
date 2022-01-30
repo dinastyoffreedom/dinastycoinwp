@@ -10,7 +10,7 @@
 * Live price updates every minute; total amount due is locked in after the order is placed for a configurable amount of time (default 60 minutes) so the price does not change after order has been made.
 * Hooks into emails, order confirmation page, customer order history page, and admin order details page.
 * View all payments received to your wallet with links to the blockchain explorer and associated orders.
-* Optionally display all prices on your store in terms of Monero.
+* Optionally display all prices on your store in terms of Dinastycoin
 * Shortcodes! Display exchange rates in numerous currencies.
 
 ## Requirements
@@ -35,7 +35,7 @@ In the "Add Plugins" section of the WordPress admin UI, search for "dinastycoin"
 
 This is the easiest way to start accepting Dinastycoin on your website. You'll need:
 
-* Your Monero wallet address starting with `NY`
+* Your Dinastycoin wallet address starting with `NY`
 * Your wallet's secret viewkey
 
 Then simply select the `viewkey` option in the settings page and paste your address and viewkey. You're all set!
@@ -49,7 +49,7 @@ The most secure way to accept MDinastycoin on your website. You'll need:
 * Root access to your webserver
 * Latest [Dinastycoin-currency binaries](https://github.com/dinastyoffreedom/Newdinastycoin/releases)
 
-After downloading (or compiling) the Dinastycoin binaries on your server, install the [systemd unit files](https://github.com/dinastyoffreedom/dinastycoinwp/tree/master/assets/systemd-unit-files) or run `dinastycoind` and `dinasty-wallet-rpc` with `screen` or `tmux`. You can skip running `monerod` by using a remote node with `dinasty-wallet-rpc` by adding `--daemon-address node.dinastycoin.com:8219` to the `dinastycoin-wallet-rpc.service` file.
+After downloading (or compiling) the Dinastycoin binaries on your server, install the [systemd unit files](https://github.com/dinastyoffreedom/dinastycoinwp/tree/master/assets/systemd-unit-files) or run `dinastycoind` and `dinasty-wallet-rpc` with `screen` or `tmux`. You can skip running `dinastycoind` by using a remote node with `dinasty-wallet-rpc` by adding `--daemon-address node.dinastycoin.com:8219` to the `dinastycoin-wallet-rpc.service` file.
 
 Note on security: using this option, while the most secure, requires you to run the Dinastycoin wallet RPC program on your server. Best practice for this is to use a view-only wallet since otherwise your server would be running a hot-wallet and a security breach could allow hackers to empty your funds.
 
@@ -104,7 +104,7 @@ This will display a badge showing that you accept Dinastycoin-currency.
 
 `[Dinastycoin-accepted-here]`
 
-![MDinastycoin Accepted Here](/assets/images/dinastycoin-accepted-here.png?raw=true "Dinastycoin Accepted Here")
+![Dinastycoin Accepted Here](/assets/images/dinastycoin-accepted-here.png?raw=true "Dinastycoin Accepted Here")
 
 ## Donations
 
