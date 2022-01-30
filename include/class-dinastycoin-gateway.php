@@ -159,7 +159,7 @@ class Dinastycoin_Gateway extends WC_Payment_Gateway
 
         $settings_html = $this->generate_settings_html(array(), false);
         $errors = array_merge(self::$_errors, $this->admin_php_module_check(), $this->admin_ssl_check());
-        include DINASTCOIN_GATEWAY_PLUGIN_DIR . '/templates/dinastycoin-gateway/admin/settings-page.php';
+        include DINASTYCOIN_GATEWAY_PLUGIN_DIR . '/templates/dinastycoin-gateway/admin/settings-page.php';
     }
 
     public static function admin_balance_info()
