@@ -109,7 +109,7 @@ function dinastycoin_init() {
     function dinastycoin_add_currency_symbol($currency_symbol, $currency) {
         switch ($currency) {
         case 'Dinastycoin':
-            $currency_symbol = 'XMR';
+            $currency_symbol = 'DCY';
             break;
         }
         return $currency_symbol;

@@ -3,7 +3,7 @@
  * dinastycoin_explorer_tools.php
  *
  * Uses CURL to call API functions from the block explorer
- * https://xmrchain.net/
+ * https://explorer.dinastycoin.com
  *
  * @author Serhack
  * @author cryptochangements
