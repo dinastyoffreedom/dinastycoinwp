@@ -40,7 +40,7 @@
             Total due:
             <strong class="dinastycoin_details_row">
                 <span class="dinastycoin_details_main">
-                    <span id="dinastycoin_total_due"></span> XMR
+                    <span id="dinastycoin_total_due"></span> DCY
                 </span>
                 <span class="dinastycoin_details_right button-row">
                     <button href="#" class="button clipboard" title="Copy Amount"
@@ -53,13 +53,13 @@
         <li style="display:none">
             Total order amount:
             <strong>
-                <span id="dinastycoin_total_amount"></span> XMR
+                <span id="dinastycoin_total_amount"></span> DCY
             </strong>
         </li>
         <li>
             Total paid:
             <strong>
-                <span id="dinastycoin_total_paid"></span> XMR
+                <span id="dinastycoin_total_paid"></span> DCY
             </strong>
         </li>
         <li>

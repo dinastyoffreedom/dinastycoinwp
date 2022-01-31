@@ -3,11 +3,11 @@
 Plugin Name: Dinastycoin Woocommerce Gateway
 Plugin URI: https://github.com/dinastyoffreedom/dinastycoinwp
 Description: Extends WooCommerce by adding a Dinastycoin Gateway
-Version: 3.0.5
-Tested up to: 5.7.2
-Author: mosu-forge, SerHack
-Author URI: https://monerointegrations.com/
-modified for Dinastycoin by Dinasty of Freedom trust
+Version: 1.0
+Tested up to: 5.9
+Author:dinasty of Freedom trust
+Author URI: https://dinastyoffreedom.com/
+modified from monero gateway by original author mosu-forge, SerHack 
 */
 // This code isn't for Dark Net Markets, please report them to Authority!
 
