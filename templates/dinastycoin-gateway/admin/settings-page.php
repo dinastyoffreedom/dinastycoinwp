@@ -2,7 +2,7 @@
 <div class="error"><p><strong>Dinastycoin Gateway Error</strong>: <?php echo $error; ?></p></div>
 <?php endforeach; ?>
 
-<h1>Monero Gateway Settings</h1>
+<h1>Dinastycoin Gateway Settings</h1>
 
 <?php if($confirm_type === 'dinastycoin-wallet-rpc'): ?>
 <div style="border:1px solid #ddd;padding:5px 10px;">
