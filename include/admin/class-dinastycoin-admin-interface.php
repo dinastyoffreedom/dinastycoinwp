@@ -40,7 +40,7 @@ class Dinastycoin_Admin_Interface {
      * Meta box for order page
      */
     public function meta_box_order_details($order) {
-        Monero_Gateway::admin_order_page($order);
+        dinastycoin_Gateway::admin_order_page($order);
     }
 
     /**
@@ -58,7 +58,7 @@ class Dinastycoin_Admin_Interface {
         );
 
         add_submenu_page(
-            'monero_gateway',
+            'dinastycoin_gateway',
             __('Payments', 'dinastycoin_gateway'),
             __('Payments', 'dinastycoin_gateway'),
             'manage_woocommerce',
@@ -71,7 +71,7 @@ class Dinastycoin_Admin_Interface {
             __('Settings', 'dinastycoin_gateway'),
             __('Settings', 'dinastycoin_gateway'),
             'manage_options',
-            'monero_gateway_settings',
+            'dinastycoin_gateway_settings',
             array($this, 'settings_page')
         );
         add_action('load-'.$settings_page, array($this, 'settings_page_init'));
